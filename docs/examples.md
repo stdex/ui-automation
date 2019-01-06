@@ -3,7 +3,7 @@
 This example will periodically (every 1.5 seconds) display the element that has focus.
 
 ```
-  UIAutomation automation = UIAutomation.getInstance();
+  Element automation = UIAutomation.getInstance();
 
   do {
     this.rest();
